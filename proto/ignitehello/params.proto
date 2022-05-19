@@ -1,0 +1,12 @@
+syntax = "proto3";
+package albacg5.ignitehello.ignitehello;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/albacg5/ignite-hello/x/ignitehello/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
